@@ -27,11 +27,11 @@ class Main {
         // Creating objects of Student class for Avi, Aashi, and Vaidushi
         Student avi = new Student(1, "Avi", 85.5);
         Student aashi = new Student(2, "Aashi", 92.0);
-        Student vaidushi = new Student(3, "Vaidushi", 88.7);
+        Student jay = new Student(3, "Jay", 88.7);
 
         // Display details of each student
         avi.displayDetails();
         aashi.displayDetails();
-        vaidushi.displayDetails();
+        jay.displayDetails();
     }
 }
